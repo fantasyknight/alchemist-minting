@@ -21,7 +21,8 @@ import { useState } from "react";
 const coins = [
   { value: 'BUSD', text: 'Binance USD (BUSD)' },
   { value: 'USDC', text: 'USD Coin (USDC)' },
-  { value: 'DAI', text: 'DAI Algo Stable (DAI)' }
+  { value: 'DAI', text: 'DAI Algo Stable (DAI)' },
+  { value: 'ETH', text: 'Ethereum (ETH)' }
 ]
 
 const AccountButton = ({ address, onDisconnect }) => {

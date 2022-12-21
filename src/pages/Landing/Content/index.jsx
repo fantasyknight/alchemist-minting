@@ -76,6 +76,10 @@ const Preview = ({ onConnect }) => {
             <div className="fw-bold">0 / 0</div>
           </div>
           <div className="mt-1 d-flex align-items-center justify-content-between">
+            <div>Minted</div>
+            <div className="fw-bold">#/310</div>
+          </div>
+          <div className="mt-1 d-flex align-items-center justify-content-between">
             <div>{"QUANTITY (MAX 50 PER TRANSACTION)"}</div>
             <div className="fw-bold d-flex align-items-center">
               <AiFillMinusSquare
@@ -102,7 +106,7 @@ const Preview = ({ onConnect }) => {
           text="MINT"
           leftIcon={<GiWoodAxe className="me-3" size={24} />}
           className="mt-3"
-          onClick={() => {}}
+          onClick={() => { }}
         />
       ) : (
         <PrimaryButton

@@ -65,13 +65,12 @@
   }
 
   .dropdown-menu {
-    width: calc(100% + 6px);
+    width: calc(100% + 4px);
     padding: 0;
     background-color: transparent;
-    border: 2px solid #f3f3f3;
-    border-top: 0;
-    border-radius: .5rem;
     color: #fff;
+    border: 0;
+    box-shadow: 0 0 0px 1px #fff;
     transform: translateX(-2px);
     overflow: hidden;
 
