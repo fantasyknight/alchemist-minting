@@ -1,0 +1,34 @@
+.connect-wallet-modal {
+  background-color: #282828;
+  padding: 18px 24px;
+  border-radius: 16px;
+}
+
+.wallet-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  padding: 12px 16px;
+  background-color: #383838;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.wallet-button:hover:not(.disabled) {
+  background-color: #484848;
+}
+
+.wallet-button.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+@media only screen and (min-width: 540px) {
+  // example
+  .wallet-button {
+    width: 80%;
+  }
+}

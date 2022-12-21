@@ -1,0 +1,29 @@
+html,
+body,
+#root,
+.App {
+  font-family: "Poppins";
+  margin: 0px !important;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: rgb(12, 12, 12);
+  background-image: url(../background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-h-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// styles
+.text-primary-custom {
+  color: rgb(234 179 8) !important;
+}

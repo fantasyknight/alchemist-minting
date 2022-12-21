@@ -1,0 +1,15 @@
+.landing-footer {
+  background-color: rgba(34, 34, 34, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  box-shadow: -1px -10px 12px 0px rgba(34, 34, 34, 0.5);
+}
+
+.footer-link {
+  transition: 0.5s;
+}
+.footer-link:hover {
+  opacity: 0.7;
+}

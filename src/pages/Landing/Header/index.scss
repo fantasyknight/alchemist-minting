@@ -1,0 +1,92 @@
+.logo-image {
+  height: 60px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  // example
+  .logo-image {
+    height: 40px;
+  }
+}
+
+.account-address-panel {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.coin-selector {
+  position: relative;
+  margin-right: 1rem;
+  min-width: 12rem;
+  padding: .5rem 2rem .5rem .5rem;
+  font-size: .8rem;
+  color: #fff;
+  border: 2px solid #f3f3f3;
+  border-radius: .5rem;
+
+  &:after {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    transform: translateY(-50%);
+  }
+
+  &:before {
+    content: 'Select a token';
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: .4rem;
+    padding: 0 4px;
+    font-size: 10px;
+    background-color: #000;
+    transform: translateY(-50%);
+  }
+
+  .dropdown-toggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &::after {
+      content: none;
+    }
+  }
+
+  .dropdown-menu {
+    width: calc(100% + 6px);
+    padding: 0;
+    background-color: transparent;
+    border: 2px solid #f3f3f3;
+    border-top: 0;
+    border-radius: .5rem;
+    color: #fff;
+    transform: translateX(-2px);
+    overflow: hidden;
+
+    li {
+      margin-left: -1px;
+      width: calc(100% + 1px);
+      padding: .5rem 1rem;
+      cursor: pointer;
+      font-size: .8rem;
+      border: 0;
+      outline: 0;
+
+      &:hover {
+        background-color: #33b4fd;
+      }
+    }
+  }
+}
